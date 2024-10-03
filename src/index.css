@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  display: flex;    
+  justify-content: center;
+  align-items:center ;
+background-color: #1E201E ;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.list{
+    margin-top: 10%;
+    margin-left: 10px;
+    width: 80%;
+    height: 35px;
+    border: 2px solid #f9f9f9;
+    border-radius: 10px;
+    list-style-type: none ;
+}
